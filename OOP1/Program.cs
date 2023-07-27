@@ -25,7 +25,7 @@ namespace OOP1
             int sayi = 100;
             productManager.BiseyYap(sayi);
             Console.WriteLine(sayi);
-            //=100 ->It doesn't change because we are just giving its value 
+            //=100 ->It doesn't change because we are just giving its value not refference number
 
 
             //int,doble,bool ... değer tip
