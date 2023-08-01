@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D32CA745-388C-4D86-98F9-125D019ABEA7}</ProjectGuid>
+    <ProjectGuid>{D76FB5FE-73D0-4CA0-8BAF-18252F4CC9CB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Koleksiyonlar</RootNamespace>
-    <AssemblyName>Koleksiyonlar</AssemblyName>
+    <RootNamespace>GenericsIntro</RootNamespace>
+    <AssemblyName>GenericsIntro</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MyList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
