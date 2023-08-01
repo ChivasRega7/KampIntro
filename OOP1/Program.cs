@@ -30,6 +30,7 @@ namespace OOP1
 
             //int,doble,bool ... değer tip
             //arrays , class , abstract calass , Interface... referans tip
+            //ref , out -> ikiside referans gösterilen değeri atamaya yarar.
         }
     }
 }
