@@ -22,15 +22,16 @@ namespace OOP1
             productManager.Add(product1);
             Console.WriteLine("Id : " + product1.Id + " \nCategory Id : " + product1.CategoryId + " \nProduct Name : " + product1.ProductName + "\nPrice : " + product1.UnitPrice + "\nStock : " + product1.UnitsInStock);
 
-            int sayi = 100;
+
+            /*  int sayi = 100;
             productManager.BiseyYap(sayi);
             Console.WriteLine(sayi);
-            //=100 ->It doesn't change because we are just giving its value not refference number
+            =100 ->It doesn't change because we are just giving its value not refference number*/
 
 
             //int,doble,bool ... değer tip
             //arrays , class , abstract calass , Interface... referans tip
-            //ref , out -> ikiside referans gösterilen değeri atamaya yarar.
+            //ref , out -> ikiside referans gösterilen değeri atamaya yarar 
         }
     }
 }

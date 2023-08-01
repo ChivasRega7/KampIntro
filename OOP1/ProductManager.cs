@@ -11,13 +11,11 @@ namespace OOP1
         //encapsulation
         public void Add(Product product)
         {
-            product.ProductName = "Kamera";
+            Console.WriteLine(product.ProductName + " sepete eklendi.");
         }
         public void Update (Product product)
         {
-
-            sayi = 99;
-            
+            Console.WriteLine(product.ProductName + " güncellendi.");
         }
     }
 }
