@@ -8,6 +8,17 @@ namespace GenericsIntro
 {
     class MyList<T>
     {
-        public void Add(T item);
+        T[] items;
+        
+        //constructor(Yapıcı Metod)
+        public MyList()
+        {
+            items = new T[0]; 
+        }
+
+        public void Add(T item)
+        { 
+
+        };
     }
 }
