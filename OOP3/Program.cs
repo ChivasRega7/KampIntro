@@ -14,12 +14,20 @@ namespace OOP3
             ICreditManager vehicleLoanManager = new VehicleLoanManager();
             ICreditManager homeLoanManager = new HomeLoanManager();
 
-            ApplicationManager applicationManager = new ApplicationManager();
-            //applicationManager.DoApplication(personalFinanceCreditManager);
+            ILoggerService databaseLoggerService = new DatabaseLoggerService();
+            ILoggerService fileLoggerService = new FileLoggerService();
 
-             
+
+            List<ILoggerService> loggers = new List<ILoggerService> { new DatabaseLoggerService(), new SmsLoggerService};
+
+
+            ApplicationManager applicationManager = new ApplicationManager();
+            applicationManager.DoApplication(new BusinessLoanManager(), loggers );
+
+
             List<ICreditManager> credits = new List<ICreditManager>() { personalFinanceCreditManager , vehicleLoanManager };
-            applicationManager.DoCreditInfo(credits);
+            
+            //applicationManager.DoCreditInfo(credits);
             
         }
     }
