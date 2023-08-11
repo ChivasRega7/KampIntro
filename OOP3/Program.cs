@@ -18,7 +18,7 @@ namespace OOP3
             ILoggerService fileLoggerService = new FileLoggerService();
 
 
-            List<ILoggerService> loggers = new List<ILoggerService> { new DatabaseLoggerService(), new SmsLoggerService};
+            List<ILoggerService> loggers = new List<ILoggerService> { new DatabaseLoggerService(), new SmsLoggerService()};
 
 
             ApplicationManager applicationManager = new ApplicationManager();
